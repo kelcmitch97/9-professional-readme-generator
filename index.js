@@ -63,43 +63,25 @@ const questions = [
 ];
 
 // Create a function to write README file
-const writeFile = (fileName, data) => {
-    return new Promise((resolve, reject) => {
-        fs.writeFile(fileName, data, err => {
-            if (err) {
-                reject(err);
-                return;
-            }
-    
-            resolve({
-                ok: true,
-                message: 'Success! Your README.md file has been generated.'
-            });
-        });
+
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+            return console.log(err);
+        }
+        console.log('Success! Your README.md file has been generated.');
     });
 };
-
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, err => {
-//         if (err) {
-//             return console.log(err);
-//         }
-//         console.log('Success! Your README.md file has been generated.');
-//     });
-// };
 
 // TODO: Create a function to initialize app
 function init() {
 
     // call inquirer to return prompt from the questions array
-
-
-
-    
-
-
-
-
+    inquirer.prompt(questions)
+        .then(function(data) {
+            writeToFile('README.md', generateMarkdown(data));
+            console.log(data);
+        })
 
 }
 
