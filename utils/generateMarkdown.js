@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {}
 function renderLicenseLink(license) {
   if (license !== 'No License') {
     return `
-      [${data.license}](https://choosealicense.com/licenses/${license})
+      [${license}](https://choosealicense.com/licenses/${license})
     `
   } else {
     return '';
@@ -18,17 +18,22 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'No License') {
-    return `
-    ## [License](#table-of-contents)
-
-    This application is covered under the following license: 
-
+    return ` This application is covered under the following license: 
     ${renderLicenseLink(license)}
     `;
   } else {
     return '';
   }
 };
+
+function renderLicenseTOC(license) {
+  if (license !== 'No License') {
+    return ` [License](#license)
+    `;
+  } else {
+    return '';
+  }
+}
 
 // TODO: Create a function to generate markdown for README - add TOC, license, badges, questions section
 function generateMarkdown(data) {
@@ -40,24 +45,27 @@ function generateMarkdown(data) {
     - [Description](#description)
     - [Installation](#installation)
     - [Usage](#usage)
+    - ${renderLicenseTOC(data.license)}
     - [Credits](#credits)
     - [Contributing](#contributing)
     - [Tests](#tests)
     - [Questions](#questions)
 
-  ## [Installation] (#table-of-contents)
+  ## [Installation](#table-of-contents)
   ${data.installation}
   ## [Usage ](#table-of-contents)
   ${data.usage}
-  ## [Credits] (#table-of-contents)
+  ## [License](#table-of-contents)
+  ${renderLicenseSection(data.license)}
+  ## [Credits](#table-of-contents)
    ${data.credits}
-  ## [Badges] (#table-of-contents)
+  ## [Badges](#table-of-contents)
   ${data.badges}
-  ## [Contributing] (#table-of-contents)
+  ## [Contributing](#table-of-contents)
   ${data.contributing}
-  ## [Tests] (#table-of-contents)
+  ## [Tests](#table-of-contents)
   ${data.tests}
-  ## [Questions] (#table-of-contents)
+  ## [Questions](#table-of-contents)
 `;
 }
 
