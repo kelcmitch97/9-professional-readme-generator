@@ -60,11 +60,17 @@ const questions = [
         name: 'tests',
         message: 'Provide any written tests for your application and how to run them here:'
     },
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: "If applicable, choose a license(s) you will use for your project. ",
+        choices: ['No license', 'agpl-3.0', 'gpl-3.0', 'lgpl-3.0', 'mpl-2.0', 'apache-2.0', 'mit', 'bsl-1.0', 'unlicense']
+    },
 ];
 
 // Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile("README.md", data, err => {
+    fs.writeFile("./dist/generated-README.md", data, err => {
         if (err) {
             return console.log(err);
         }
