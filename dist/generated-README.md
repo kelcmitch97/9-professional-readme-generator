@@ -1,8 +1,10 @@
 
-  # df
+  # Run Buddy
+
+  ![badge](https://img.shields.io/badge/license-mit-blue)
 
   ## [Description](#table-of-contents)
-  sd
+  sldfjksldkjfsj
   ## Table-of-Contents
   [Description](#description) - 
   [Installation](#installation) - 
@@ -14,20 +16,26 @@
   [Questions](#questions) 
 
   ## Installation
-  fsdf
+  sldjkflskdjfljsdfs
   ## Usage
-  sdf
+  dlfsjdlkfjsldkjflsdjf
   ## License
   This application is covered under the following license: 
-    [apache](https://choosealicense.com/licenses/apache)
+    [mit](https://choosealicense.com/licenses/mit)
     
-  ![badge](https://img.shields.io/badge/license-apache-blue)
   ## Credits
-   sdf
+   lsdkjfls
   ## Badges
   undefined
   ## Contributing
-  sdf
+  djflsd
+  
+  For reference on how to add guildlines for contributing to your project, please click [here](https://www.contributor-covenant.org/).
   ## Tests
-  s
+  dskfjld
   ## Questions
+
+  You can reach me with additional questions using the following links: 
+
+  [GitHub](https://github.com/kelcmitch97)
+  [Email: kelciemitchelmore@gmail.com](mailto:kelciemitchelmore@gmail.com)

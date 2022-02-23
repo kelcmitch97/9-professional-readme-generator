@@ -22,12 +22,34 @@ const questions = [
         type: 'input',
         name: 'link',
         message: 'Enter the GitHub link to your project.',
+        validate: githubLinkInput => {
+            if (githubLinkInput) {
+                return true;
+            } else {
+                console.log('Please enter a valid GitHub link to your project.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address.',
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log('Please enter a valid email address.');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'title',
         message: 'What is your project title?',
         default: 'Your Project Title'
+        
     },
     {
         type: 'input',
@@ -87,7 +109,9 @@ function init() {
             writeToFile('README.md', generateMarkdown(data));
             console.log(data)
         })
-
+        .catch(err => {
+            console.log(err)
+        })
 }
 
 // Function call to initialize app
