@@ -1,37 +1,31 @@
 
   # sdf
   ## [Description](#table-of-contents)
-  dfs
-  ## Table-of-Contents
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    
-    * [License](#license)
-    
-    * [Credits](#credits)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-
-  ## [Installation](#table-of-contents)
-  fdfs
-  ## [Usage ](#table-of-contents)
   sdf
-  ## [License](#table-of-contents)
-  
-    This application is covered under the following license: 
+  ## Table-of-Contents
+  [Description](#description) - 
+  [Installation](#installation) - 
+  [Usage](#usage) - 
+  [License](#license) - 
+  [Credits](#credits) - 
+  [Contributing](#contributing) - 
+  [Tests](#tests) - 
+  [Questions](#questions) - 
 
+  ## Installation
+  sdf
+  ## Usage
+  sdf
+  ## License
+  This application is covered under the following license: 
+    [gpl-3.0](https://choosealicense.com/licenses/gpl-3.0)
     
-      [mit](https://choosealicense.com/licenses/mit)
-    
-    
-  ## [Credits](#table-of-contents)
-   sf
-  ## [Badges](#table-of-contents)
+  ## Credits
+   sdf
+  ## Badges
   undefined
-  ## [Contributing](#table-of-contents)
-  dfd
-  ## [Tests](#table-of-contents)
+  ## Contributing
   fds
-  ## [Questions](#table-of-contents)
+  ## Tests
+  fsddf
+  ## Questions
