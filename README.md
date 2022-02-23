@@ -4,7 +4,7 @@ Module 9: Node.js Professional README Generator Challenge
 
 ## Description 
 
-Having a professional, high-quality README for your application is extremely important as it is the firs thing that a person see when they visit a repo on your GitHub. This application provides users with a professional README generator that is customizable to your specific project. It prompts the user with a series of questions that then quickly generates their README.md file to use on their GitHub repo page. Some of the sections in the README.md file include:
+Having a professional, high-quality README for your application is extremely important as it is the first thing that a person sees when they visit a repo on your GitHub. This application provides users with a professional README generator that is customizable to your specific project. It prompts the user with a series of questions that then quickly generates their README.md file to use on their GitHub repo page. Some of the sections in the README.md file include:
 - Description
 - Table of Contents
 - Installation
@@ -21,6 +21,11 @@ To use this README.md generator, you can download the zip file and copy it to a 
 Once you have this repo on your local machine, you can open the file in the editor of your choice and navigate to the root directory "9-professional-readme-generator". Now your ready to run the application.
 
 ## Tutorial
+
+
+Test README.md created from the professional README generator can be seen below:
+
+![Test README.md file](./images/test-readme.png)
 
 ## Usage 
 

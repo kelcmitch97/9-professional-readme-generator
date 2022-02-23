@@ -1,10 +1,10 @@
 
-  # Run Buddy
+  # Test title
 
   ![badge](https://img.shields.io/badge/license-mit-blue)
 
-  ## [Description](#table-of-contents)
-  sldfjksldkjfsj
+  ## Description
+  Test description
   ## Table-of-Contents
   [Description](#description) - 
   [Installation](#installation) - 
@@ -16,26 +16,25 @@
   [Questions](#questions) 
 
   ## Installation
-  sldjkflskdjfljsdfs
+  Test installation
   ## Usage
-  dlfsjdlkfjsldkjflsdjf
+  Test usage
   ## License
   This application is covered under the following license: 
     [mit](https://choosealicense.com/licenses/mit)
     
   ## Credits
-   lsdkjfls
+   Test credits
   ## Badges
   undefined
   ## Contributing
-  djflsd
-  
-  For reference on how to add guildlines for contributing to your project, please click [here](https://www.contributor-covenant.org/).
+  Test contributors
   ## Tests
-  dskfjld
+  Test tests
   ## Questions
 
   You can reach me with additional questions using the following links: 
 
   [GitHub](https://github.com/kelcmitch97)
+  
   [Email: kelciemitchelmore@gmail.com](mailto:kelciemitchelmore@gmail.com)
