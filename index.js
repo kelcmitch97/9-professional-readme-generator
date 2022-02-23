@@ -64,7 +64,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: "If applicable, choose a license(s) you will use for your project. ",
-        choices: ['No license', 'agpl-3.0', 'gpl-3.0', 'lgpl-3.0', 'mpl-2.0', 'apache-2.0', 'mit', 'bsl-1.0', 'unlicense']
+        choices: ['No license', 'agpl', 'gpl', 'lgpl', 'mpl', 'apache', 'mit', 'bsl', 'unlicense']
     },
 ];
 

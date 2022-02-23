@@ -1,6 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license !== 'No License') {
+    return `![badge](https://img.shields.io/badge/license-${license}-blue)`;
+  } else {
+    return '';
+  }
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -36,6 +42,9 @@ function renderLicenseTOC(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
+
+  ${renderLicenseBadge(data.license)}
+
   ## [Description](#table-of-contents)
   ${data.description}
   ## Table-of-Contents
