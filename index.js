@@ -20,19 +20,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project.',
-        validate: githubLinkInput => {
-            if (githubLinkInput) {
-                return true;
-            } else {
-                console.log('Please enter a valid GitHub link to your project.');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
         name: 'email',
         message: 'Enter your email address.',
         validate: emailInput => {
@@ -54,7 +41,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of your project.',
+        message: 'Provide a description of your project (What, why & how?).',
         default: 'Description'
     },
     {
