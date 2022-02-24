@@ -5,6 +5,7 @@
 
   ## Description
   Test description
+  
   ## Table-of-Contents
   [Description](#description) - 
   [Installation](#installation) - 
@@ -17,20 +18,24 @@
 
   ## Installation
   Test installation
+
   ## Usage
   Test usage
+
   ## License
   This application is covered under the following license: 
     [mit](https://choosealicense.com/licenses/mit)
     
+
   ## Credits
-   Test credits
-  ## Badges
-  undefined
+   Test credit
+
   ## Contributing
   Test contributors
+
   ## Tests
   Test tests
+
   ## Questions
 
   You can reach me with additional questions using the following links: 
