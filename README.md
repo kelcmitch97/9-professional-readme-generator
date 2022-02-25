@@ -22,6 +22,7 @@ Once you have this repo on your local machine, you can open the file in the edit
 
 ## Tutorial
 
+![Walkthrough Tutorial of Professional README Generator App](https://drive.google.com/file/d/1d9S-YG8KPhDACCbMFaNGjNNlb8XCui6O/view?usp=sharing)
 
 Test README.md created from the professional README generator can be seen below:
 
